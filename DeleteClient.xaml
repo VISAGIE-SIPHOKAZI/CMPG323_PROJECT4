@@ -1,0 +1,133 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="DeleteClient" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="848.8,968" sap2010:WorkflowViewState.IdRef="DeleteClient_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="DeleteClient" sap:VirtualizedContainerService.HintSize="512,903.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge Home" sap:VirtualizedContainerService.HintSize="449.6,814.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="6b02570f-e1dd-4752-b1c5-ac305f57d213" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,534.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" AlterIfDisabled="{x:Null}" ClickType="Single" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Click 'I'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" OutUiElement="{x:Null}" ScopeIdentifier="6b02570f-e1dd-4752-b1c5-ac305f57d213" Timeout="{x:Null}" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://techtrendstelemetryportal.azurewebsites.net/clients" CVScreenId="2769f371-dd1e-45bb-b63d-76f6c663e1a6" CvElementArea="1754, 589, 29, 31" CvType="Icon" DesignTimeRectangle="1758, 594, 20, 23" DesignTimeScaleFactor="1.462499976158142" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='fas fa-trash-alt' type='' tag='I' aaname='' /&gt;" Guid="52a55f81-defe-44ae-9595-b8fbfc85bcdb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAYAAABm409WAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAE8SURBVEhLY/j06dN/WmIiLfjw/9XTZ/9vP0bDT99gUYuKibLg8rq9/xmyt2PF/HNuYtUDw0gWPPw/d96R/3Ez0PHh//qF2A0H49zd/90w9ADxvIv/T39AseDq/1BsBpCN9/5vvYViwY3/cbnYFJKLgRbcRYuDV8+xRCS5GJoAMCL51Y0b/5fsv0IZPv8Mbh6GBZdX404xROMpVweNBTv/6/cf+W9fhdDM33z4f2jzToSa4n3/Qyfu+88P44Mw8RYc+b8GTSz0MFDdrdP/1WFqwIY9/N9aB9MDExu1AKZm1IJRCwbagoP/pzz/8H/Pwt1wMbedr/9/On/ivzhMTefF/48/3PyfhlzrEW8BmRifBbe3HcSuiQQsv+Q+bgs+fXr9f/O8ff/FK3aThfWnQCp7mHlYLKAuprEFn/4DAI9CoTrBGbZxAAAAAElFTkSuQmCC" InformativeScreenshot="0e656aa9661b7ff071340ead28e0b24d.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='techtrendstelemetryportal.azurewebsites.net/clients' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Delete'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6b02570f-e1dd-4752-b1c5-ac305f57d213" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://techtrendstelemetryportal.azurewebsites.net/delete-client/a6d6d2e2-37ac-4e21-a004-05e650ee199a" CVScreenId="e5671a90-286d-4ea9-a1aa-ae909b751355" CvElementArea="425, 478, 109, 59" CvTextArea="445, 496, 70, 21" CvTextArgument="Delete" CvType="Button" DesignTimeRectangle="427, 481, 105, 55" DesignTimeScaleFactor="1.462499976158142" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Delete' tag='BUTTON' type='' class='btn btn-danger' check:innerText='Delete' /&gt;" Guid="1c8d4956-1afe-43e1-8ba0-be4aa8412934" InformativeScreenshot="b4cca40747dfc83edad7b4cebeaa5f81.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='techtrendstelemetryportal.azurewebsites.net/delete-client/a6d6d2e2-37ac-4e21-a004-05e650ee199a' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" ContentHash="7SpF6wbEqU-ftR7QFmdV9A" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAMSSURBVFhHxZcxa1RREIXzE/YnpLdJZ5vCH7DWImxjY2M6wSqgtWxrIQh2FpIqWAathS1ERRQ3iEhQYRHZ9jnf8M5j3rxJ3kaNFifkzp07Z+bM3JuXraZp/itK40VgvV5vG44MB4Zd2QeOfwNGMDXsG/aCDeImwPcGh/8UFniWiFjvaX3/9rHsK8OkDPI7sGBI3FX5/PCriJAdsubx/HNz9dKr5uWL79qblcEyzJHguwZkrdARfzv56VXeuf5eJI43i5WTg6DCQUkIbHNiIPiydR7FsycnzY0rb52EamWH/Nrl110C+LR7y9PI6ZnLBqgK2Z4+/OKBM+7d/NgjAMcffvhZzuQ9oNiZmKofaRNSgufDY0D+qEYFiqoSYGB8MxNTBYGFqqrzgLb0ErDFXOS3pu86RxIJU9sDdpKJgTeFYoicCe+RU6GuEv18cPdTTwHWSgy/8yrCOaAEfNIZKDlIIojiwQwUIvF4zcZAAW0CR131VCkHJhfbpvKiGklwrtrPoNA2gTkJ+NSret3RqAa28LI58qygFPazJl+QuoZpJ7+CUQXB1VMCskYhkhK4ZtgjIT5jKgT5V7SfBNwgB7KjWq0hInAeMgWKbYKcwYx+GUHJeZcAlciBdZQ/r4UqAfywRb+IWL1hu0sgTjDri0gABVGSfcM+5GULcEJ2rZGsaoHI+Msmm+Yi+glB+oXIewmIQD3XQV0xVOLOUzE+nMHGHr0H2Cq15G9A+p2cgL//evslbayMJIJ8Tso+SSs4tkwe9w0DciXgn0s46iCTTMB8p1nHu38W8Av3vSRXAnztuKMIdfcJsCmhwNmoSht7WZED/2EO/hrGO6zeS9qsRgR7tESDxhlexiT/JJMDJcCHCE69VqQe+hyQZIT2AIrl2WgxzcRC94s57RgGSahCKqLCnADqQCqFit7PImFGb2HO/EPhSVBtfGTGAHGqmr8x5eBFDAwcMizaIJ4Id1xvQASVsxevaAu+psueZ5RGYAG4nht/khvwhdjf+E1RGiMsoP4h4cHK4PaQ6KjUp6E0/js0W78AQWMC43VltAEAAAAASUVORK5CYII=" InformativeScreenshot="f72630d5ebf64b89bc4b36699581229c.jpg" Reference="AU177h00c0e8e4BzIw604w/Ygf-JrgKoUKU9dq5UtTlfA" Selector="&lt;html app='msedge.exe' title='techtrendstelemetryportal.azurewebsites.net/clients' /&gt;" Title="techtrendstelemetryportal.azurewebsites.net/clients" Url="https://techtrendstelemetryportal.azurewebsites.net/clients" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
